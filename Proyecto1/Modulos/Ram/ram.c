@@ -1,65 +1,63 @@
-// Libreria para interactuar con modulos de kernel
 #include <linux/module.h>
-// Librería para obtener información de kernel
-#include <linux/kernel.h>
-// Información de la memoria RAM
-#include <linux/mm.h>
-
-//Header para los macros module_init y module_exit
-#include <linux/init.h>
-//Header necesario porque se usara proc_fs
 #include <linux/proc_fs.h>
-/* for copy_from_user */
-#include <asm/uaccess.h>
-/* Header para usar la lib seq_file y manejar el archivo en /proc*/
+#include <linux/sysinfo.h> // Para obtener información de la RAM
 #include <linux/seq_file.h>
-
-// Obtener las estadisticas del sistema
-struct sysinfo si;
-
-static void init_meminfo(void) {
-    si_meminfo(&si);
-}
+#include <linux/mm.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Modulo de RAM, Laboratorio Sistemas Operativos 1");
-MODULE_AUTHOR("Nahomi Aparicio -Richard Marroquin");
+MODULE_AUTHOR("Nahomi Aparicio - Richard Marroquin");
 
-//Funcion que se ejecutara cada vez que se lea el archivo con el comando CAT
-static int escribir_archivo(struct seq_file *archivo, void *v)
+static struct sysinfo inf;
+
+// Función para obtener y formatear la información de la memoria
+static int mostrar_info_ram(struct seq_file *file_proc, void *v)
 {
-    init_meminfo();
-    seq_printf(archivo, "%lu", si.freeram);
+    unsigned long total, usado;
+    unsigned long porcentaje_usado;
+
+    si_meminfo(&inf); // Obtener información de la memoria
+
+    total = inf.totalram * inf.mem_unit;
+   
+    usado = inf.freeram * inf.mem_unit + inf.bufferram * inf.mem_unit + inf.sharedram * inf.mem_unit;
+    porcentaje_usado = (usado * 100) / total;
+
+    // Escribir la información en formato JSON en el archivo proc
+    seq_printf(file_proc, "{\"totalRam\":%lu, \"memoriaEnUso\":%lu, \"porcentaje\":%lu}", 
+               total, usado, porcentaje_usado);
     return 0;
 }
 
-//Funcion que se ejecutara cada vez que se lea el archivo con el comando CAT
-static int al_abrir(struct inode *inode, struct file *file)
+// Función para abrir el archivo proc
+static int abrir_info_ram(struct inode *inode, struct file *file)
 {
-    return single_open(file, escribir_archivo, NULL);
+    return single_open(file, mostrar_info_ram, NULL);
 }
 
-//Si el kernel es 5.6 o mayor se usa la estructura proc_ops
-static struct proc_ops operaciones =
-{
-    .proc_open = al_abrir,
-    .proc_read = seq_read
+// Operaciones del archivo proc para kernels superiores a la versión 5.6
+static const struct proc_ops proc_ops_info_ram = {
+    .proc_open = abrir_info_ram,
+    .proc_read = seq_read,
+    .proc_lseek = seq_lseek,
+    .proc_release = single_release
 };
 
-//Funcion a ejecuta al insertar el modulo en el kernel con insmod
-static int _insert(void)
+// Función de inicialización del módulo
+static int __init modulo_init(void)
 {
-    proc_create("ram_so1_jun2024", 0, NULL, &operaciones);
-    printk(KERN_INFO "ram_so1_jun2021\n");
+    proc_create("ram_so1_jun2024", 0, NULL, &proc_ops_info_ram);
+    printk(KERN_INFO "Modulo RAM montado\n");
     return 0;
 }
 
-//Funcion a ejecuta al remover el modulo del kernel con rmmod
-static void _remove(void)
+// Función de limpieza del módulo
+static void __exit modulo_cleanup(void)
 {
     remove_proc_entry("ram_so1_jun2024", NULL);
-    printk(KERN_INFO "Laboratorio Sistemas Operativos 1\n");
+    printk(KERN_INFO "Modulo RAM eliminado\n");
 }
 
-module_init(_insert);
-module_exit(_remove);
+module_init(modulo_init);
+module_exit(modulo_cleanup);
+
