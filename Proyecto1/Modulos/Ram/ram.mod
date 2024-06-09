@@ -1,2 +1,2 @@
-/home/nayo/Proyecto1/Modulos/Ram/ram.o
+/home/nayo/Proyecto/Proyecto1/Modulos/Ram/ram.o
 

@@ -1,2 +1,2 @@
-/home/nayo/Proyecto1/Modulos/CPU/cpu.o
+/home/nayo/Proyecto/Proyecto1/Modulos/CPU/cpu.o
 

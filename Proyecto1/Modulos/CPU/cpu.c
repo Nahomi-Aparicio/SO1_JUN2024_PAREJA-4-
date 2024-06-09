@@ -87,7 +87,7 @@ static struct proc_ops operaciones =
 //Funcion a ejecuta al insertar el modulo en el kernel con insmod
 static int _insert(void)
 {
-    proc_create("cpu_202113293_202102894", 0, NULL, &operaciones);
+    proc_create("cpu_so1_s12024", 0, NULL, &operaciones);
     printk(KERN_INFO "Nahomi Aparicio -Richard Marroquin\n");
     return 0;
 }
@@ -95,8 +95,8 @@ static int _insert(void)
 //Funcion a ejecuta al remover el modulo del kernel con rmmod
 static void _remove(void)
 {
-    remove_proc_entry("cpu_202113293_202102894", NULL);
-    printk(KERN_INFO "Segundo Semestre 2023\n");
+    remove_proc_entry("cpu_so1_s12024", NULL);
+    printk(KERN_INFO "Esuela de vacaiones 2024\n");
 }
 
 module_init(_insert);

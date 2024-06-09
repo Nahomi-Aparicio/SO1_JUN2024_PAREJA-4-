@@ -1,1 +1,1 @@
-cmd_/home/nayo/Proyecto1/Modulos/Ram/ram.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/nayo/Proyecto1/Modulos/Ram/ram.ko /home/nayo/Proyecto1/Modulos/Ram/ram.o /home/nayo/Proyecto1/Modulos/Ram/ram.mod.o;  true
+cmd_/home/nayo/Proyecto/Proyecto1/Modulos/Ram/ram.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/nayo/Proyecto/Proyecto1/Modulos/Ram/ram.ko /home/nayo/Proyecto/Proyecto1/Modulos/Ram/ram.o /home/nayo/Proyecto/Proyecto1/Modulos/Ram/ram.mod.o;  true
