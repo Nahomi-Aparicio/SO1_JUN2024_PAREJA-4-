@@ -3,7 +3,6 @@ cmd_/home/nayo/Proyecto/Proyecto1/Modulos/CPU/cpu.o := gcc -Wp,-MMD,/home/nayo/P
 source_/home/nayo/Proyecto/Proyecto1/Modulos/CPU/cpu.o := /home/nayo/Proyecto/Proyecto1/Modulos/CPU/cpu.c
 
 deps_/home/nayo/Proyecto/Proyecto1/Modulos/CPU/cpu.o := \
-    $(wildcard include/config/MMU) \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -78,6 +77,7 @@ deps_/home/nayo/Proyecto/Proyecto1/Modulos/CPU/cpu.o := \
     $(wildcard include/config/PREEMPT_DYNAMIC) \
     $(wildcard include/config/PREEMPT_) \
     $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
+    $(wildcard include/config/MMU) \
     $(wildcard include/config/PROVE_LOCKING) \
   include/linux/stdarg.h \
   include/linux/align.h \
