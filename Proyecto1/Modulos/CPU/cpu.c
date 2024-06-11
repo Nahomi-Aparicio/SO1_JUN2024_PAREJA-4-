@@ -70,45 +70,70 @@ static int escribir_a_proc(struct seq_file *archivo, void *v)
     // Escribo el porcentaje de CPU que se esta usando 
     seq_printf(archivo, "{\"cpu_porcentaje\":%d.%d ,\n", porcentajecpu / 10, porcentajecpu % 10); // Formatear el porcentaje correctamente
 
-    // Comienzo a escribir los procesos que estan sucediendo en el CPU en vivo y en directo :v
-    seq_printf(archivo, "\"Procesos_existentes\":[\n");
+   seq_printf(archivo, "\"Procesos_existentes\":[\n");
+int b = 0;
 
-    for_each_process(cpu) {
-        seq_printf(archivo, "{\n");
-        seq_printf(archivo, "  \"pid\": %d,\n", cpu->pid);
-        seq_printf(archivo, "  \"name\": \"%s\",\n", cpu->comm);
-        seq_printf(archivo, "  \"state\": %u,\n", cpu->__state);
-
-        if (cpu->mm) {
-            rss = get_mm_rss(cpu->mm) << PAGE_SHIFT;
-            seq_printf(archivo, "  \"rss\": %lu,\n", rss);
-        } else {
-            seq_printf(archivo, "  \"rss\": \"\",\n");
-        }
-
-        seq_printf(archivo, "  \"uid\": %u,\n", from_kuid(&init_user_ns, cpu->cred->uid));
-
-        seq_printf(archivo, "  \"children\": [\n");
-        list_for_each(lstProcess, &(cpu->children)) {
-            child = list_entry(lstProcess, struct task_struct, sibling);
-            seq_printf(archivo, "    {\n");
-            seq_printf(archivo, "      \"pid\": %d,\n", child->pid);
-            seq_printf(archivo, "      \"name\": \"%s\",\n", child->comm);
-            seq_printf(archivo, "      \"state\": %u,\n", child->__state);
-
-            if (child->mm) {
-                rss = get_mm_rss(child->mm) << PAGE_SHIFT;
-                seq_printf(archivo, "      \"rss\": %lu,\n", rss);
-            } else {
-                seq_printf(archivo, "      \"rss\": \"\",\n");
-            }
-
-            seq_printf(archivo, "      \"uid\": %u\n", from_kuid(&init_user_ns, child->cred->uid));
-            seq_printf(archivo, "    },\n");
-        }
-        seq_printf(archivo, "  ]\n");
-        seq_printf(archivo, "},\n");
+for_each_process(cpu) {
+    if (cpu->mm)
+    {
+        rss = get_mm_rss(cpu->mm) << PAGE_SHIFT;
     }
+    else
+    {
+        rss = 0;
+    }
+    if (b == 0)
+    {
+        seq_printf(archivo, "{");
+        b = 1;
+    }
+    else
+    {
+        seq_printf(archivo, ",{");
+    }
+    seq_printf(archivo, "\"pid\":%d,\n", cpu->pid);
+    seq_printf(archivo, "\"name\":\"%s\",\n", cpu->comm);
+    seq_printf(archivo, "\"state\":%u,\n", cpu->__state);
+    seq_printf(archivo, "\"rss\":%lu,\n", rss);
+    seq_printf(archivo, "\"uid\":%u,\n", from_kuid(&init_user_ns, cpu->cred->uid));
+
+    seq_printf(archivo, "\"children\":[\n");
+    int a = 0;
+    struct list_head *list;
+    struct task_struct *task_child;
+    list_for_each(list, &(cpu->children))
+    {
+        task_child = list_entry(list, struct task_struct, sibling);
+        if (a != 0)
+        {
+            seq_printf(archivo, ",{");
+        }
+        else
+        {
+            seq_printf(archivo, "{");
+            a = 1;
+        }
+        seq_printf(archivo, "\"pid\":%d,\n", task_child->pid);
+        seq_printf(archivo, "\"name\":\"%s\",\n", task_child->comm);
+        seq_printf(archivo, "\"state\":%u,\n", task_child->__state);
+        if (task_child->mm)
+        {
+            rss = get_mm_rss(task_child->mm) << PAGE_SHIFT;
+        }
+        else
+        {
+            rss = 0;
+        }
+        seq_printf(archivo, "\"rss\":%lu,\n", rss);
+        seq_printf(archivo, "\"uid\":%u\n", from_kuid(&init_user_ns, task_child->cred->uid));
+        seq_printf(archivo, "}\n");
+    }
+    seq_printf(archivo, "]\n");
+    seq_printf(archivo, "}\n");
+}
+b = 0;
+seq_printf(archivo, "]\n");
+seq_printf(archivo, "}\n");
 
     return 0;
 }
