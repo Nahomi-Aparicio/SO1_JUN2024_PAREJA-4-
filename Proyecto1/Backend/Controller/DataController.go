@@ -26,3 +26,14 @@ func InsertData2(nameCol string, dataParam1 string, dataParam2 string, dataParam
 		log.Fatal(err)
 	}
 }
+
+func InsertData1(nameCol string, dataParam string) error {
+	collection := Instance.Mg.Db.Collection(nameCol)
+	doc := Model.Prueba{Percent: dataParam}
+
+	_, err := collection.InsertOne(context.TODO(), doc)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return nil
+}

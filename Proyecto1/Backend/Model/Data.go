@@ -17,3 +17,8 @@ type CPU struct {
 	Rss   string `json:"Rss"`
 	Uid   string `json:"Uid"`
 }
+
+type Prueba struct {
+	ID      string `json:"id" bson:"_id,omitempty"`
+	Percent string `json:"percent"`
+}
