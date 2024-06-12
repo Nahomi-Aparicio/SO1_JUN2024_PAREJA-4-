@@ -4,6 +4,7 @@ import (
 	"Backend/Instance"
 	"Backend/Model"
 	"context"
+	"fmt"
 	"log"
 )
 
@@ -18,7 +19,9 @@ func InsertData(nameCol string, dataParam string, dataParam1 string, dataParam2 
 }
 
 func InsertData2(nameCol string, dataParam1 string, dataParam2 string, dataParam3 string, Padre2 string, dataParam4 string, dataParam5 string) {
+
 	collection := Instance.Mg.Db.Collection(nameCol)
+
 	doc := Model.CPU{Pid: dataParam1, Name: dataParam2, State: dataParam3, Padre: Padre2, Rss: dataParam4, Uid: dataParam5}
 
 	_, err := collection.InsertOne(context.TODO(), doc)
@@ -27,13 +30,13 @@ func InsertData2(nameCol string, dataParam1 string, dataParam2 string, dataParam
 	}
 }
 
-func InsertData1(nameCol string, dataParam string) error {
+func InsertData1(nameCol string) error {
 	collection := Instance.Mg.Db.Collection(nameCol)
-	doc := Model.Prueba{Percent: dataParam}
 
-	_, err := collection.InsertOne(context.TODO(), doc)
+	err := collection.Drop(context.TODO())
 	if err != nil {
 		log.Fatal(err)
 	}
+	fmt.Printf("en poceso de guardar datos")
 	return nil
 }

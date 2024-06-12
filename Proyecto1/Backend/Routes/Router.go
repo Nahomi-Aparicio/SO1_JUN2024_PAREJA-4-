@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
-	"math/rand"
 	"os/exec"
 	"strconv"
 
@@ -52,14 +51,14 @@ func Setup(app *fiber.App) {
 		return ctx.JSON("Hello World")
 	})
 
-	app.Get("/Prueba", func(ctx *fiber.Ctx) error {
-		fmt.Println("estoy tratando de enviar algo")
-		dataParam := strconv.Itoa(rand.Intn(100))
-
-		Controller.InsertData1("ramprueba", string(dataParam))
-
-		return ctx.Status(201).JSON(dataParam)
-	})
+	//app.Get("/Prueba", func(ctx *fiber.Ctx) error {
+	//		fmt.Println("estoy tratando de enviar algo")
+	//		dataParam := strconv.Itoa(rand.Intn(100))
+	//
+	//		Controller.InsertData1("ramprueba", string(dataParam))
+	//
+	//		return ctx.Status(201).JSON(dataParam)
+	//	})
 
 	app.Get("/insertRam", func(ctx *fiber.Ctx) error {
 		ramInfo := getMem()
@@ -271,8 +270,10 @@ func parsearHijo(data map[string]interface{}) (Hijo, error) {
 }
 
 func guardarCPUmongo(infoSistema *InfoSistema) error {
+	Controller.InsertData1("datoscpu")
 
 	for _, proceso := range infoSistema.Procesos {
+
 		//fmt.Printf("PID: %d, Name: %s, State: %d, RSS: %d, UID: %d\n", proceso.Pid, proceso.Name, proceso.State, proceso.Rss, proceso.Uid)
 
 		pp := strconv.Itoa(proceso.Pid)
@@ -292,5 +293,6 @@ func guardarCPUmongo(infoSistema *InfoSistema) error {
 			Controller.InsertData2("datoscpu", string(hijopp), string(hijo.Name), string(hijoss), string(hijopd), string(hijorr), string(hijouu))
 		}
 	}
+	fmt.Printf("en poceso de guardar datos")
 	return nil
 }
