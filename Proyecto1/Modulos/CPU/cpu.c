@@ -116,6 +116,7 @@ for_each_process(cpu) {
         seq_printf(archivo, "\"pid\":%d,\n", task_child->pid);
         seq_printf(archivo, "\"name\":\"%s\",\n", task_child->comm);
         seq_printf(archivo, "\"state\":%u,\n", task_child->__state);
+        seq_printf(archivo, "\"pidPadre\":%d,\n", cpu->pid);
         if (task_child->mm)
         {
             rss = get_mm_rss(task_child->mm) << PAGE_SHIFT;

@@ -37,6 +37,7 @@ type Hijo struct {
 	Pid   int    `json:"pid"`
 	Name  string `json:"name"`
 	State int    `json:"state"`
+	Padre int    `json:"padre"`
 	Rss   int    `json:"rss"`
 	Uid   int    `json:"uid"`
 }
@@ -108,16 +109,17 @@ func getMem() {
 			ss := strconv.Itoa(proceso.State)
 			rr := strconv.Itoa(proceso.Rss)
 			uu := strconv.Itoa(proceso.Uid)
-			Controller.InsertData2("datoscpu", pp, string(proceso.Name), string(ss), string(rr), string(uu))
+			Controller.InsertData2("datoscpu", pp, string(proceso.Name), string(ss), string(""), string(rr), string(uu))
 			// Imprimir también la información de los hijos del proceso
 
 			for _, hijo := range proceso.Children {
 				hijopp := strconv.Itoa(hijo.Pid)
 				hijoss := strconv.Itoa(hijo.State)
+				hijopd := strconv.Itoa(hijo.Padre)
 				hijorr := strconv.Itoa(hijo.Rss)
 				hijouu := strconv.Itoa(hijo.Uid)
 				//fmt.Printf("\tHijo PID: %d, Name: %s, State: %d, RSS: %d, UID: %d\n", hijo.Pid, hijo.Name, hijo.State, hijo.Rss, hijo.Uid)
-				Controller.InsertData2("datoscpu", string(hijopp), string(hijo.Name), string(hijoss), string(hijorr), string(hijouu))
+				Controller.InsertData2("datoscpu", string(hijopp), string(hijo.Name), string(hijoss), string(hijopd), string(hijorr), string(hijouu))
 			}
 		}
 
@@ -264,6 +266,9 @@ func parsearHijo(data map[string]interface{}) (Hijo, error) {
 	}
 	if state, ok := data["state"].(float64); ok {
 		hijo.State = int(state)
+	}
+	if padre, ok := data["pidPadre"].(float64); ok {
+		hijo.Padre = int(padre)
 	}
 	if rss, ok := data["rss"].(float64); ok {
 		hijo.Rss = int(rss)

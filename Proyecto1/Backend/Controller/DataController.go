@@ -17,9 +17,9 @@ func InsertData(nameCol string, dataParam string, dataParam1 string, dataParam2 
 	}
 }
 
-func InsertData2(nameCol string, dataParam1 string, dataParam2 string, dataParam3 string, dataParam4 string, dataParam5 string) {
+func InsertData2(nameCol string, dataParam1 string, dataParam2 string, dataParam3 string, Padre2 string, dataParam4 string, dataParam5 string) {
 	collection := Instance.Mg.Db.Collection(nameCol)
-	doc := Model.CPU{Pid: dataParam1, Name: dataParam2, State: dataParam3, Rss: dataParam4, Uid: dataParam5}
+	doc := Model.CPU{Pid: dataParam1, Name: dataParam2, State: dataParam3, Padre: Padre2, Rss: dataParam4, Uid: dataParam5}
 
 	_, err := collection.InsertOne(context.TODO(), doc)
 	if err != nil {

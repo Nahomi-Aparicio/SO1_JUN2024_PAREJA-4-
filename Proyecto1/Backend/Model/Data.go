@@ -11,8 +11,9 @@ type Data struct {
 type CPU struct {
 	ID    string `json:"id" bson:"_id,omitempty"`
 	Pid   string `json:"Pid"`
-	Name  string `json:"Pid"`
-	State string `json:"Pid"`
-	Rss   string `json:"Pid"`
-	Uid   string `json:"Pid"`
+	Name  string `json:"Name"`
+	State string `json:"State"`
+	Padre string `json:"Padre"`
+	Rss   string `json:"Rss"`
+	Uid   string `json:"Uid"`
 }
