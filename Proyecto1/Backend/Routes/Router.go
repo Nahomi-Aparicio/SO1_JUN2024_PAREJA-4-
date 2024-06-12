@@ -76,6 +76,40 @@ func Setup(app *fiber.App) {
 		return ctx.Status(201).JSON(infoSistema.CPUPorcentaje)
 	})
 
+	app.Get("/insertProcess", func(ctx *fiber.Ctx) error {
+		log.Println("Insertando proceso")
+
+		cmd := exec.Command("sleep", "infinity")
+		err := cmd.Start()
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		return ctx.Status(200).JSON(fiber.Map{
+			"success": true,
+			"pid":     cmd.Process.Pid,
+		})
+	})
+
+	app.Get("/killProcess", func(ctx *fiber.Ctx) error {
+		pid := ctx.Query("pid")
+		log.Println(pid)
+		pidInt, err := strconv.Atoi(pid)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		cmd := exec.Command("kill", "-9", strconv.Itoa(pidInt))
+		err = cmd.Run()
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		return ctx.Status(200).JSON(fiber.Map{
+			"success": true,
+		})
+	})
+
 }
 
 func getMem() DatosRam {
