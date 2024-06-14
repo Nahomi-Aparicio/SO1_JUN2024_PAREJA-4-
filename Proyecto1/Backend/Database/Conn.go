@@ -4,6 +4,7 @@ import (
 	"Backend/Instance"
 	"context"
 	"log"
+	"os"
 	"time"
 
 	"github.com/joho/godotenv"
@@ -22,9 +23,9 @@ func Connect() error {
 		log.Fatal("Error loading .env file")
 	}
 
-	server := "192.168.122.116"
-	port := "27017"
-	dbName := "DB"
+	server := os.Getenv("DB_HOST")
+	port := os.Getenv("DB_PORT")
+	dbName := os.Getenv("DB_NAME")
 	var mongoUri = "mongodb://" + server + ":" + port + "/" + dbName
 
 	client, err := mongo.NewClient(options.Client().ApplyURI(mongoUri))

@@ -40,3 +40,13 @@ func InsertData1(nameCol string) error {
 	fmt.Printf("en poceso de guardar datos")
 	return nil
 }
+
+func InsertData22(nameCol string, dataParam string) {
+	collection := Instance.Mg.Db.Collection(nameCol)
+	doc := Model.Prueba{Percent: dataParam}
+
+	_, err := collection.InsertOne(context.TODO(), doc)
+	if err != nil {
+		log.Fatal(err)
+	}
+}

@@ -62,8 +62,14 @@ func Setup(app *fiber.App) {
 
 	app.Get("/insertRam", func(ctx *fiber.Ctx) error {
 		ramInfo := getMem()
-
-		return ctx.Status(201).JSON(ramInfo)
+		log.Println(ramInfo.EnUso)
+		return ctx.JSON(fiber.Map{
+			"status":  200,
+			"uso":     ramInfo.EnUso,
+			"libre":   ramInfo.Libre,
+			"porcent": ramInfo.PorcentajeR,
+			"total":   ramInfo.Total,
+		})
 	})
 
 	app.Get("/InsertCPU", func(ctx *fiber.Ctx) error {
@@ -73,7 +79,11 @@ func Setup(app *fiber.App) {
 		}
 		guardarCPUmongo(infoSistema)
 
-		return ctx.Status(201).JSON(infoSistema.CPUPorcentaje)
+		return ctx.JSON(fiber.Map{
+			"status":   200,
+			"cpu":      infoSistema.CPUPorcentaje,
+			"procesos": infoSistema.Procesos,
+		})
 	})
 
 	app.Get("/insertProcess", func(ctx *fiber.Ctx) error {

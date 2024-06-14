@@ -1,0 +1,33 @@
+version: '2'
+
+services:
+  database:
+    image: mongo
+    container_name: mongo-container
+    restart: always
+    environment:
+      - MONGO_INITDB_DATABASE=DB
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - '27017:27017'
+      
+  backend:
+    image: nahomiaparicio/backend
+    container_name: backend_container
+    environment:
+      - DB_HOST=database
+      - DB_PORT=27017
+      - DB_NAME=DB
+    ports:
+      - '8000:8000'
+    restart: always
+    depends_on:
+      - database
+    links:
+      - database
+
+volumes:
+  mongo-data:
+    external: false
+

@@ -1,4 +1,4 @@
-                                                                                   FROM golang
+FROM golang
 
 WORKDIR /back
 
@@ -6,7 +6,7 @@ COPY . ./
 
 RUN go mod download
 
-ENV DB_HOST="192.168.122.116"
+ENV DB_HOST="localhost"
 ENV DB_PORT="27017"
 ENV DB_NAME="DB"
 
