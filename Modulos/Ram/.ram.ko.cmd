@@ -1,0 +1,1 @@
+cmd_/home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/Ram/ram.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/Ram/ram.ko /home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/Ram/ram.o /home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/Ram/ram.mod.o;  true
