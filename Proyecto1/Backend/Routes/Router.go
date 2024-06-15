@@ -85,7 +85,6 @@ func Setup(app *fiber.App) {
 			"procesos": infoSistema.Procesos,
 		})
 	})
-
 	app.Get("/insertProcess", func(ctx *fiber.Ctx) error {
 		log.Println("Insertando proceso")
 
@@ -101,9 +100,8 @@ func Setup(app *fiber.App) {
 		})
 	})
 
-	app.Get("/killProcess", func(ctx *fiber.Ctx) error {
+	app.Get("/delProcess", func(ctx *fiber.Ctx) error {
 		pid := ctx.Query("pid")
-		log.Println(pid)
 		pidInt, err := strconv.Atoi(pid)
 		if err != nil {
 			log.Fatal(err)
@@ -119,7 +117,6 @@ func Setup(app *fiber.App) {
 			"success": true,
 		})
 	})
-
 }
 
 func getMem() DatosRam {

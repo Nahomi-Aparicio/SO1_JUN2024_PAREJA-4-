@@ -13,7 +13,9 @@ services:
       - '27017:27017'
       
   backend:
-    image: nahomiaparicio/backend
+    image: nahomiaparicio/backend:1.0.0
+    privileged: true
+    pid: host
     container_name: backend_container
     environment:
       - DB_HOST=database
@@ -21,13 +23,33 @@ services:
       - DB_NAME=DB
     ports:
       - '8000:8000'
+    volumes:
+     - type: bind
+       source: /proc
+       target: /proc     
     restart: always
     depends_on:
       - database
     links:
       - database
+      
+      
+      
+  frontend:
+    image: nahomiaparicio/pruebaf2:11.8.0
+    container_name: front_container
+    ports:
+      - '5173:5173'
+    restart: always
+    depends_on:
+      - backend
+    links:
+      - backend
 
 volumes:
   mongo-data:
     external: false
+
+
+
 
