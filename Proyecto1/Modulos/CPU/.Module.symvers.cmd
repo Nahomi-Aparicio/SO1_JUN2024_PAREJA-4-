@@ -1,1 +1,1 @@
-cmd_/home/nayo/Proyecto/Proyecto1/Modulos/CPU/Module.symvers := sed 's/\.ko$$/\.o/' /home/nayo/Proyecto/Proyecto1/Modulos/CPU/modules.order | scripts/mod/modpost -m -a  -o /home/nayo/Proyecto/Proyecto1/Modulos/CPU/Module.symvers -e -i Module.symvers   -T -
+cmd_/home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/CPU/Module.symvers := sed 's/\.ko$$/\.o/' /home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/CPU/modules.order | scripts/mod/modpost -m -a  -o /home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/CPU/Module.symvers -e -i Module.symvers   -T -

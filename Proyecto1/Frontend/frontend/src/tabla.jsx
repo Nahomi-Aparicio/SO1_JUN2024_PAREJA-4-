@@ -15,7 +15,7 @@ const TablaProcesos = () => {
       } catch (e) {
         console.log(e);
       }
-    }, 3500);
+    }, 2500);
 
     return () => clearInterval(interval);
   }, []);

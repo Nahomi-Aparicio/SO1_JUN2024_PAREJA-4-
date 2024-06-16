@@ -1,1 +1,1 @@
-cmd_/home/nayo/Proyecto/Proyecto1/Modulos/CPU/modules.order := {   echo /home/nayo/Proyecto/Proyecto1/Modulos/CPU/cpu.ko; :; } | awk '!x[$$0]++' - > /home/nayo/Proyecto/Proyecto1/Modulos/CPU/modules.order
+cmd_/home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/CPU/modules.order := {   echo /home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/CPU/cpu.ko; :; } | awk '!x[$$0]++' - > /home/nayo/Proyecto/SO1_JUN2024_PAREJA-4-/Proyecto1/Modulos/CPU/modules.order

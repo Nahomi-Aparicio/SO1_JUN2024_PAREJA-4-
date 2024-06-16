@@ -35,16 +35,17 @@ const deleteProc = async () => {
     console.log("Proceso a eliminar:", entradaTexto); 
       const req = await deleteProcess(entradaTexto);
       const res = await req.json();
-      console.log(res);
+      console.log(res,"Crear Prxxxxxxxxxxxxxxxxxxxxoceso");
       setProcesos((prevProcesos) =>
         prevProcesos.map((proceso) =>
           proceso.pid === parseInt(entradaTexto) ? { ...proceso, state: 'zombie' } : proceso
         )
       );
-      setActionButton("Crear Proceso");
+      setActionButton("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
   } catch (e) {
       console.log(e);
   }
+  console.log("Proceso a eliminar:", entradaTexto); 
 }
 
   return (

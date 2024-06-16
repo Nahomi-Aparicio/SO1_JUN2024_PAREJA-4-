@@ -14,7 +14,7 @@ export default defineConfig({
   '/insertRam':'http://backend:8000',
   '/InsertCPU':'http://backend:8000',
   '/insertProcess':'http://backend:8000',
-  '/killProcess':'http://backend:8000'
+  '/delProcess':'http://backend:8000'
 
     }
   }

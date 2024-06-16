@@ -13,7 +13,7 @@ services:
       - '27017:27017'
       
   backend:
-    image: nahomiaparicio/backend:1.0.0
+    image: nahomiaparicio/backend1.0.0
     privileged: true
     pid: host
     container_name: backend_container
@@ -32,20 +32,19 @@ services:
       - database
     links:
       - database
-      
-      
+    
       
   frontend:
-    image: nahomiaparicio/pruebaf2:11.8.0
+    image: nahomiaparicio/frontend_so1jun:1.0.0
     container_name: front_container
     ports:
-      - '5173:5173'
+      - '80:80'
     restart: always
     depends_on:
       - backend
     links:
-      - backend
-
+      - backend      
+  
 volumes:
   mongo-data:
     external: false

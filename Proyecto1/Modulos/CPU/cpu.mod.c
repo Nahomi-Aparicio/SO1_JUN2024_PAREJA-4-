@@ -33,8 +33,10 @@ __used __section("__versions") = {
 	{ 0x4334b731, "proc_create" },
 	{ 0xb32ec28b, "from_kuid" },
 	{ 0x6fbcc169, "init_user_ns" },
-	{ 0x825fce9b, "init_task" },
 	{ 0x8d286714, "seq_printf" },
+	{ 0x37befc70, "jiffies_to_msecs" },
+	{ 0x825fce9b, "init_task" },
+	{ 0x944375db, "_totalram_pages" },
 	{ 0x92997ed8, "_printk" },
 	{ 0xd0da656b, "__stack_chk_fail" },
 	{ 0x4f418e78, "filp_close" },
@@ -49,4 +51,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "F4332D1999000140617BB06");
+MODULE_INFO(srcversion, "2DE1BA8D381132371430C5A");

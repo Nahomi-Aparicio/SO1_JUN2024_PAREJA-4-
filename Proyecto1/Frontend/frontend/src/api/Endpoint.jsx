@@ -25,7 +25,7 @@ export function createProcess() {
 }
 
 export function deleteProcess(pid) {
-    return fetch(`/killProcess?pid=${pid}`, {
+    return fetch(`/delProcess?pid=${pid}`, {
         method: 'GET',
         headers: {'Content-Type': 'application/json'},
     })

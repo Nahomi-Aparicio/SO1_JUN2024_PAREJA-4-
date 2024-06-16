@@ -101,6 +101,7 @@ func Setup(app *fiber.App) {
 	})
 
 	app.Get("/delProcess", func(ctx *fiber.Ctx) error {
+		log.Println("entro  proceso---------------------------------------------------------------------")
 		pid := ctx.Query("pid")
 		pidInt, err := strconv.Atoi(pid)
 		if err != nil {
