@@ -2,14 +2,11 @@
  LABORATORIO SISTEMAS OPERATIVOS 1
  Sección: A
 #
-#
-#
+
 
 ### **Autores:**
 - Genesis Nahomi Aparicio Acan - Carnet: 202113293
 - Richard Alexandro Marroquin Arana - Carnet: 202102894
-#
-#
 #
 ### **Auxiliar:**
 - Daniel Velásquez
@@ -20,11 +17,8 @@
 
 ### Manual Técnico del Proyecto 1
 #
-#
-#
+
 ---
-
-
 ## Índice
 1. [Introducción](##introducción)
 2. [Web UI](#web-ui)
@@ -43,13 +37,10 @@
 #
 ---
 #
-#
 ## Introducción
 Este proyecto tiene como objetivo principal implementar un sistema de monitoreo de recursos del sistema y gestión de procesos empleando varias tecnologías y lenguajes de programación. El
 sistema resultante permitirá obtener información clave sobre el rendimiento del computador,
 procesos en ejecución y su administración a través de una interfaz amigable.
-#
-#
 #
 
 ---
@@ -97,8 +88,7 @@ Los componentes `PASTEL`, `TablaProcesos` y `TablaPid` deben estar definidos en 
 #
 
 ---
-#
-#
+
 #
 # DataController
 #
