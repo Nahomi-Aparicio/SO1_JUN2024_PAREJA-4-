@@ -4,21 +4,10 @@
 #
 #
 #
-#
-#
-#
-#
-#
-#
-#
-#
 
 ### **Autores:**
 - Genesis Nahomi Aparicio Acan - Carnet: 202113293
 - Richard Alexandro Marroquin Arana - Carnet: 202102894
-#
-#
-#
 #
 #
 #
@@ -30,13 +19,6 @@
 ### **Título:**
 
 ### Manual Técnico del Proyecto 1
-#
-#
-#
-#
-
-#
-#
 #
 #
 #
