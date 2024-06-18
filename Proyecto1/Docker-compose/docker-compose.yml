@@ -13,7 +13,7 @@ services:
       - '27017:27017'
       
   backend:
-    image: nahomiaparicio/backend1.0.0
+    image: nahomiaparicio/so1_backend1
     privileged: true
     pid: host
     container_name: backend_container
@@ -35,7 +35,7 @@ services:
     
       
   frontend:
-    image: nahomiaparicio/frontend_so1jun:1.0.0
+    image: nahomiaparicio/frontendf:2.2.0
     container_name: front_container
     ports:
       - '80:80'

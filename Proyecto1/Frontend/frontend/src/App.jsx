@@ -64,7 +64,7 @@ const deleteProc = async () => {
       onChange={(e) => setEntradaTexto(e.target.value)} 
       placeholder="Ingrese número de proceso "
     />
-    <button className="my-button2"  onClick={deleteProc}>Crear proceso</button>
+    <button className="my-button2"  onClick={deleteProc}>matar proceso</button>
           <p>
               {pid}
           </p>

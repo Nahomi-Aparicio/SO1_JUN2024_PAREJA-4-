@@ -83,7 +83,7 @@ const PASTEL = () => {
                 try {
                   const req = await getCPU();
                   const res = await req.json();
-                  console.log(res.Procesos);
+                  console.log(res.cpu);
                   setPercentcpu(res.cpu);
 
                   setDataCpu({
