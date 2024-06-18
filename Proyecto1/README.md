@@ -456,6 +456,15 @@ os/exec: Permite ejecutar comandos externos desde Go.
 #
 #
 ```
+
+sudo apt install make ---si no tiene instalado make haga el siguiente comando
+
+luego
+
+sudo apt update
+
+sudo apt install build-essential
+
 sudo insmod file.ko  -- este es para incertar los ko de ram y cpu 
 
 sudo rmmod file.ko     --- este es para eliminar el ko  se debe de hacer en el archivo
