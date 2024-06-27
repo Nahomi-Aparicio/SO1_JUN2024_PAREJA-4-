@@ -15,7 +15,7 @@ type MongoInstance struct {
 }
 
 func Connect() error {
-	server := "localhost"
+	server := "34.42.79.158"
 	port := "27017"
 	dbName := "DB2"
 	var mongoUri = "mongodb://" + server + ":" + port + "/" + dbName
