@@ -6,8 +6,8 @@ use redis::Commands;
 
 #[derive(Deserialize, Serialize)]
 struct Data {
-    key: String,
-    value: String,
+    Pais: String,
+    Texto: String
 }
 
 #[post("/set", format = "json", data = "<data>")]
@@ -21,7 +21,7 @@ async fn set_data(data: Json<Data>) -> Result<&'static str, &'static str> {
         .map_err(|_| "Failed to connect to Redis")?;
 
     // Insertar hash en redis
-    let _: () = con.hincr(&data.key, &data.value, 1)
+    let _: () = con.hincr(&data.Pais, &data.Texto, 1)
         .map_err(|_| "Failed to set data in Redis")?;
     Ok("Data set")
 }
