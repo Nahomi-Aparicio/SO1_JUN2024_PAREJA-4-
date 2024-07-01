@@ -29,7 +29,7 @@ def generar_datos(num_datos):
     return datos
 
 # Generar 10,000 datos aleatorios
-datos_json = generar_datos(500)
+datos_json = generar_datos(2000)
 
 # Guardar los datos en un archivo JSON
 with open('data.json', 'w', encoding='utf-8') as file:
