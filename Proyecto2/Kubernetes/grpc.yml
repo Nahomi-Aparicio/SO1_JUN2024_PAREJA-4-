@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: grpc-client
-        image: nahomiaparicio/client-grcp:1.0.0
+        image: nahomiaparicio/client-grcp:1.2.0
         ports:
         - containerPort: 3000
         resources:
@@ -23,20 +23,20 @@ spec:
             cpu: "0.4"
             memory: "500Mi"
       - name: grpc-server
-        image: nahomiaparicio/server-grcp:1.1.0
+        image: nahomiaparicio/server-grcp:1.4.0
         ports:
         - containerPort: 3001
         resources:
           limits:
             cpu: "0.4"
             memory: "500Mi"
-      -name: rust-api
-        image: nahomiaparicio/rust-redi
+      - name: rust-api  # Corregido: espacio después del guion
+        image: nahomiaparicio/rust-redis
         ports:
         - containerPort: 8000
         resources:
           limits:
-            cpu: "0.4"
+            cpu: "0.3"
             memory: "500Mi"
 ---
 apiVersion: v1

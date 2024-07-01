@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: consumer
-        image: nahomiaparicio/consumer-kafka:2.0.0
+        image: nahomiaparicio/consumer-kafka:2.1.0
         resources:
           limits:
             cpu: "0.4"

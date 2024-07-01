@@ -1,3602 +1,431 @@
 [
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Noruega"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Ucrania"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "China"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Países Bajos"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Cuba"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "China"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Malasia"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "China"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Iraq"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Barbados"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Irán"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Jamaica"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Ghana"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Somalia"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Madagascar"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Cuba"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "China"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Iraq"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "India"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Iraq"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Irán"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Ucrania"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Iraq"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Filipinas"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Sudán"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Noruega"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Zimbabue"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Ucrania"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Barbados"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Australia"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Yemen"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Yemen"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Noruega"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Ghana"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Belice"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Filipinas"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Etiopía"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Suecia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Nueva Zelanda"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Australia"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Nueva Zelanda"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Malasia"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "México"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Irán"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Tanzania"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Tanzania"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Kenia"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Países Bajos"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Dinamarca"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Suecia"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Australia"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Yemen"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Tailandia"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Ucrania"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Irán"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Japón"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Malasia"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Jamaica"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Mauritania"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Pakistán"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Mauritania"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Malasia"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Uganda"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "India"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "España"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Mauritania"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Arabia Saudita"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Etiopía"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Zimbabue"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Zimbabue"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Tanzania"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Madagascar"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Barbados"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Italia"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Madagascar"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Suecia"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Barbados"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Belice"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "España"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Tailandia"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "México"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Uganda"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Nueva Zelanda"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Cuba"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Malasia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Indonesia"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Tanzania"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Jamaica"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "India"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Tailandia"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Surinam"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "México"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "India"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Pakistán"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "México"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Ucrania"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Honduras"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Benín"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Barbados"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Pakistán"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "España"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Madagascar"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Somalia"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Indonesia"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Surinam"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Jamaica"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Iraq"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Etiopía"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Indonesia"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Somalia"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Pakistán"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Italia"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Kenia"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "México"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Malasia"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Somalia"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Suecia"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "India"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Kenia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "China"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Jamaica"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Italia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Países Bajos"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Belice"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Belice"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Bolivia"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "India"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Yemen"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Arabia Saudita"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Surinam"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Filipinas"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Australia"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Noruega"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Irán"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Italia"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Barbados"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Tailandia"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Indonesia"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Somalia"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Mauritania"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Australia"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Bolivia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Italia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Benín"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Países Bajos"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Filipinas"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "China"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Bolivia"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "España"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Australia"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "México"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Uganda"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Arabia Saudita"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "España"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Chile"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "México"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Noruega"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Yemen"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Italia"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "México"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Uganda"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Filipinas"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Australia"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Arabia Saudita"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Honduras"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Filipinas"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Nueva Zelanda"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Nueva Zelanda"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Tanzania"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Mauritania"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "México"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Pakistán"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Australia"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Dinamarca"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Surinam"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Noruega"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Filipinas"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Benín"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "México"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Etiopía"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Madagascar"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Belice"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Noruega"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Dinamarca"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Jamaica"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "México"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Malasia"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Jamaica"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Mauritania"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Italia"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Honduras"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Benín"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Madagascar"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Uganda"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Iraq"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Etiopía"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Iraq"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "México"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Belice"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "India"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Filipinas"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Filipinas"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "India"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Madagascar"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Suecia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "India"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Zimbabue"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Kenia"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Pakistán"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Nueva Zelanda"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Yemen"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Cuba"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "México"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Sudán"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Dinamarca"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Países Bajos"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Somalia"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Zimbabue"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Bolivia"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Irán"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Noruega"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Etiopía"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Ucrania"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Indonesia"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Jamaica"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "India"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "India"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Perú"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Noruega"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Cuba"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Tailandia"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Rusia"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Irán"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Italia"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Dinamarca"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Hace mucho viento hoy",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Japón"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Honduras"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Indonesia"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Liberia"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Kenia"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Arabia Saudita"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Países Bajos"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Honduras"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Ghana"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Ghana"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Ucrania"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Honduras"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "India"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "India"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Belice"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Dinamarca"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Yemen"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Uganda"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Albania"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Etiopía"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Surinam"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Zimbabue"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Qatar"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Suecia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Indonesia"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Madagascar"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Honduras"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Tailandia"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Iraq"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Cuba"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Francia"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Uganda"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Malasia"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Suecia"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Sudán"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Iraq"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Finlandia"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Dinamarca"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Pakistán"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Uganda"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Surinam"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "India"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Uganda"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Sudán"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Pakistán"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Bolivia"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Yemen"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Mañana húmeda y fresca",
-      "pais": "Irán"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Cabo Verde"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Brasil"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Turquía"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Colombia"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Tanzania"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Namibia"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Canadá"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Senegal"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Kenia"
-  },
-  {
-      "texto": "Huracán en la región",
-      "pais": "Irán"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Honduras"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Kenia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Heladas matinales en invierno",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Burundi"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "Somalia"
-  },
-  {
-      "texto": "Niebla densa por la mañana",
-      "pais": "Omán"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Australia"
-  },
-  {
-      "texto": "Tormenta de verano repentina",
-      "pais": "Egipto"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Pakistán"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Etiopía"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Yemen"
-  },
-  {
-      "texto": "Frente frío acercándose",
-      "pais": "Fiyi"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "México"
-  },
-  {
-      "texto": "Me encanta la lluvia",
-      "pais": "Siria"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Mongolia"
-  },
-  {
-      "texto": "Lluvia ligera y persistente",
-      "pais": "Mali"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Suiza"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Nepal"
-  },
-  {
-      "texto": "Nieve fresca sobre las montañas",
-      "pais": "Sudáfrica"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Somalia"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Reino Unido"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Chad"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Angola"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "India"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Ghana"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Honduras"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Ghana"
-  },
-  {
-      "texto": "Aroma a tierra mojada después de la lluvia",
-      "pais": "Nicaragua"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Camboya"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Mozambique"
-  },
-  {
-      "texto": "Olas altas en la costa",
-      "pais": "México"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "India"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Costa Rica"
-  },
-  {
-      "texto": "Nebulosa mañana de otoño",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Etiopía"
-  },
-  {
-      "texto": "Noche estrellada y despejada",
-      "pais": "Jamaica"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Alemania"
-  },
-  {
-      "texto": "Agradable clima fresco",
-      "pais": "Papúa Nueva Guinea"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Tailandia"
-  },
-  {
-      "texto": "Calor sofocante",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Viento frío del norte",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Laos"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Estados Unidos"
-  },
-  {
-      "texto": "Tormenta intensa esta noche",
-      "pais": "Grecia"
-  },
-  {
-      "texto": "Granizo inesperado",
-      "pais": "Ruanda"
-  },
-  {
-      "texto": "Clima cambiante constantemente",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Paisaje cubierto de nieve",
-      "pais": "Burkina Faso"
-  },
-  {
-      "texto": "Calor sofocante en la ciudad",
-      "pais": "Corea del Sur"
-  },
-  {
-      "texto": "Brisa suave y agradable",
-      "pais": "Panamá"
-  },
-  {
-      "texto": "Niebla espesa en el valle",
-      "pais": "Países Bajos"
-  },
-  {
-      "texto": "Lindo día soleado",
-      "pais": "Letonia"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Ecuador"
-  },
-  {
-      "texto": "Tarde soleada y tranquila",
-      "pais": "Argentina"
-  },
-  {
-      "texto": "Atardecer con colores intensos",
-      "pais": "Afganistán"
-  },
-  {
-      "texto": "Nubes oscuras de tormenta",
-      "pais": "Zambia"
-  },
-  {
-      "texto": "Frío intenso esta semana",
-      "pais": "Vietnam"
-  },
-  {
-      "texto": "Ráfagas de viento fuerte",
-      "pais": "Argentina"
-  }
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Mexico" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Guatemala" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" },
+    { "texto": "Su lluvia", "pais": "Reino Unido" }
 ]

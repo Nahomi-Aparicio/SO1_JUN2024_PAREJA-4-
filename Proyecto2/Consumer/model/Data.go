@@ -1,6 +1,7 @@
 package model
 
 type Data struct {
-	Texto string `json:"texto"`
-	Pais  string `json:"pais"`
+	Texto     string `json:"texto"`
+	Pais      string `json:"pais"`
+	Timestamp string `json:"timestamp"`
 }

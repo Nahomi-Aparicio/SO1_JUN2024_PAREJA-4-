@@ -10,6 +10,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/segmentio/kafka-go"
 	"log"
+	"time"
 )
 
 func processEvent(event []byte) {
@@ -18,6 +19,9 @@ func processEvent(event []byte) {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	// Asigna la fecha y la hora actuales como una cadena de texto
+	data.Timestamp = time.Now().Format(time.RFC3339)
 
 	if err := Database.Connect(); err != nil {
 		log.Fatal("Error en", err)

@@ -25,6 +25,7 @@ metadata:
   name: redis
   namespace: so1jun2024
 spec:
+  type: LoadBalancer
   ports:
   - port: 6379
     targetPort: 6379
